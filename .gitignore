@@ -1,0 +1,9 @@
+/obj/
+/bin/
+*perf.data*
+massif.out.*
+/tmp_debug/
+imgui.ini
+/build/
+/.cmake/
+/out/
