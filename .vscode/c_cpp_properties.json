@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/mylib/",
+                "~/vksdk/1.3.290.0/x86_64/include/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++20",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerArgs": [
+                "-lglfw",
+                "-lstdc++",
+                "-lcholmod",
+                "-lassimp",
+                "-lfreetype"
+            ]
+        }
+    ],
+    "version": 4
+}
