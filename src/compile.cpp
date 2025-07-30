@@ -17,7 +17,7 @@ namespace Medea {
         std::string reqSrc(requested_source);
 
         std::string preprocessorPrefix = "auto/";
-
+ 
         auto* out = new shaderc_include_result();
 
         if (reqSrc.length() > preprocessorPrefix.size() && reqSrc.substr(0, 5) == preprocessorPrefix) {
